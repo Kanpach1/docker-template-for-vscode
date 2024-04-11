@@ -1,0 +1,23 @@
+{
+    "name": "ubuntu-go",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "init": true,
+    "features": {
+        "ghcr.io/devcontainers/features/go:1": {
+            "version": "latest",
+            "golangciLintVersion": "latest"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "go.toolsManagement.checkForUpdates": "local",
+                "go.useLanguageServer": true,
+                "go.gopath": "/go"
+            },
+            "extensions": []
+        }
+    }
+}

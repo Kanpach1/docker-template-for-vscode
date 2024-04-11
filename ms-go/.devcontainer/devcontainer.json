@@ -1,0 +1,13 @@
+{
+    "name": "ms-go",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "init": true,
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": []
+        }
+    }
+}
