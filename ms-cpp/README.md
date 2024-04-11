@@ -1,5 +1,9 @@
 # Microsoft CPP
 
+Microsoft Dev Container 公式の Docker Image にVSCodeの設定だけ加えた環境 
+
+## Environment
+
 2024/04/11 現在
 
 | OS | Version |

@@ -1,5 +1,11 @@
 # Ubuntu CPP
 
+素のUbuntuにパッケージとVSCode拡張機能をいれただけの環境
+
+Microsoft 公式と違い、Zshなどは入っていない
+
+## Environment
+
 2024/04/11 現在
 
 | OS | Version |

@@ -1,5 +1,5 @@
 {
-    "name": "rust-ms",
+    "name": "ms-rust",
     "image": "mcr.microsoft.com/devcontainers/rust",
     "init": true,
     "customizations": {
