@@ -1,15 +1,11 @@
 # C++ - DevContiner公式イメージ
-#
-# * Docker Hub | VS Code Remote : https://hub.docker.com/_/microsoft-vscode-devcontainers
-# * GitHub | vscode/devcontainer/cpp : https://github.com/microsoft/vscode-dev-containers/tree/main/containers/cpp
 # * GitHub | devcontainer/cpp : https://github.com/devcontainers/images/tree/main/src/cpp
 FROM mcr.microsoft.com/devcontainers/cpp:latest
 
 # [オプション] 追加パッケージのインストール
 #
 # 使い方 :
-#  * 「&& apt-get -y install --no-install-recommends \」
-#    の後に、パッケージを追加
+#  * <install packages>の部分にパッケージを追加
 #
 # デフォルト指定パッケージ :
 #  * clang-foramt : コードフォーマット
@@ -20,5 +16,6 @@ RUN apt-get update \
     && apt-get -y install --no-install-recommends \
     clang-tidy \
     clang-format \
+    # <install packages> \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*

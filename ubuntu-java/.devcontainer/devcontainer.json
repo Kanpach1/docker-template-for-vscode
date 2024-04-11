@@ -1,10 +1,21 @@
 {
-    "name": "java-dev",
+    "name": "ubuntu-java",
     "build": {
-        "dockerfile": "./Dockerfile",
-        "context": "."
+        "dockerfile": "./Dockerfile"
     },
     "init": true,
+    "features": {
+        "ghcr.io/devcontainers/features/java:latest": {
+            "version": "latest", // Java バージョン, latest = SDKMAN が指定する最新の安定したバージョンの tem, jdkDistroは無視される
+            "jdkDistro": "ms", // Java ディストロ
+            "installGradle": true, // Gradleのインストール
+            "gradleVersion": "latest",
+            "installMaven": false, // Mavenのインストール
+            "mavenVersion": "latest",
+            "installAnt": false, // Antのインストール
+            "antVersion": "latest"
+        }
+    },
     "customizations": {
         "vscode": {
             "settings": {
@@ -25,22 +36,6 @@
                 "vscjava.vscode-java-pack",
                 "vscjava.vscode-gradle"
             ]
-        }
-    },
-    "features": {
-        "ghcr.io/devcontainers/features/java:latest": {
-            "version": "17", // Java バージョン, latest = SDKMAN が指定する最新の安定したバージョン, jdkDistroは無視される
-            "jdkDistro": "ms", // Java ディストロ
-            "installGradle": true, // Gradleのインストール
-            "gradleVersion": "latest",
-            "installMaven": false, // Mavenのインストール
-            "mavenVersion": "latest",
-            "installAnt": false, // Antのインストール
-            "antVersion": "latest"
-        },
-        "ghcr.io/devcontainers/features/git:latest": {
-            "version": "latest",
-            "ppa": true
         }
     }
 }

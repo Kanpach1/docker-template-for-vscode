@@ -1,6 +1,8 @@
 {
     "name": "ms-rust",
-    "image": "mcr.microsoft.com/devcontainers/rust",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
     "init": true,
     "customizations": {
         "vscode": {

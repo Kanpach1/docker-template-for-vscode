@@ -1,6 +1,6 @@
-# Debian - DevContiner公式イメージ
-# * Docker Hub | VS Code Remote : https://hub.docker.com/_/microsoft-vscode-devcontainers
-FROM mcr.microsoft.com/devcontainers/base:debian
+# Ubuntu - DevContiner公式イメージ
+# * GitHub | devcontainer/cpp : https://github.com/devcontainers/images/tree/main/src/base-ubuntu
+FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
 # [オプション] 追加パッケージのインストール
 #

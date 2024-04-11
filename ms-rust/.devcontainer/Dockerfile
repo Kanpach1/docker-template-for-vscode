@@ -1,6 +1,6 @@
-# Ubuntu - DevContiner公式イメージ
-# * GitHub | devcontainer/cpp : https://github.com/devcontainers/images/tree/main/src/base-ubuntu
-FROM mcr.microsoft.com/devcontainers/base:ubuntu
+# Rust - DevContiner公式イメージ
+# * GitHub | devcontainer/rust : https://github.com/devcontainers/images/tree/main/src/rust
+FROM mcr.microsoft.com/devcontainers/rust:latest
 
 # [オプション] 追加パッケージのインストール
 #
