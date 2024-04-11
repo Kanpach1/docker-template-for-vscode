@@ -2,6 +2,8 @@
 
 Dev Container Features で SDKMAN! を使った環境構築
 
+[devcontainer/images java](https://github.com/devcontainers/images/tree/main/src/java) の Docker Image は、SDKMAN!を使わず、MSOoenJDK を直接インストールしているため、柔軟性確保するため SDKMAN! を使う Features で環境構築した
+
 ## Environment
 
 2024/04/11 現在
