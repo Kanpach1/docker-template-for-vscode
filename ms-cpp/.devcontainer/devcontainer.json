@@ -1,5 +1,5 @@
 {
-    "name": "cpp-dev",
+    "name": "ms-cpp",
     "build": {
         "dockerfile": "./Dockerfile",
         "context": "."

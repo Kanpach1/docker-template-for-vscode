@@ -23,7 +23,7 @@
             "name": "(lldb) Launch Sample3", // [変更箇所] プロジェクト名
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/src/sample2/Sample3", // [変更箇所] 実行ファイルパス
+            "program": "${workspaceFolder}/build/src/sample3/Sample3", // [変更箇所] 実行ファイルパス
             "args": [],
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "CMake: Build Project"
