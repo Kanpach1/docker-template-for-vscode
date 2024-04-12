@@ -23,7 +23,8 @@ USER $USERNAME
 # コンテナ内のワーキングディレクトリを、指定されたユーザーのホームディレクトリ（/home/$USERNAME/）に設定
 WORKDIR /home/$USERNAME/
 
-# mise のインストール
-# mise: https://mise.jdx.dev
-RUN curl https://mise.run | sh \
-    && echo 'eval "$(~/.local/bin/mise activate bash)"' >> ~/.bashrc
+SHELL ["/bin/bash", "-c"]
+
+# bun のインストール
+# bun: https://bun.sh
+RUN curl -fsSL https://bun.sh/install | bash

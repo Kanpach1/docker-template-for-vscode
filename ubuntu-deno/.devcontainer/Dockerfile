@@ -23,7 +23,8 @@ USER $USERNAME
 # コンテナ内のワーキングディレクトリを、指定されたユーザーのホームディレクトリ（/home/$USERNAME/）に設定
 WORKDIR /home/$USERNAME/
 
-# mise のインストール
-# mise: https://mise.jdx.dev
-RUN curl https://mise.run | sh \
-    && echo 'eval "$(~/.local/bin/mise activate bash)"' >> ~/.bashrc
+# deno のインストール
+# https://deno.com
+RUN curl -fsSL https://deno.land/install.sh | sh
+ENV DENO_INSTALL /home/$USERNAME/.deno
+ENV PATH $PATH:$DENO_INSTALL/bin

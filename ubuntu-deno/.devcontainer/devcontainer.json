@@ -1,0 +1,24 @@
+{
+    "name": "ubuntu-deno",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "init": true,
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "deno.enable": true,
+                "deno.lint": true,
+                "editor.formatOnSave": true,
+                "[typescript]": {
+                    "editor.defaultFormatter": "denoland.vscode-deno"
+                }
+            },
+            "extensions": [
+                "denoland.vscode-deno",
+                "VisualStudioExptTeam.vscodeintellicode"
+            ]
+        }
+    },
+    "postCreateCommand": "/bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh"
+}

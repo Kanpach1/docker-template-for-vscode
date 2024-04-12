@@ -1,12 +1,10 @@
 # Debian Node Mise
 
-Dev Container Features を使った Node.js の環境構築
-
 [mise](https://mise.jdx.dev) を使って Node.js をインストール
 
 Node Features のようにデフォルトで yarn, pnpm はインストールはしていない
 
-追加で欲しいものがあったら、setup.sh に記述を追加
+mise や node のコマンドは setup.sh に記述を追加可能
 
 ESLint ではなく [Biome](https://biomejs.dev) でフォーマットとLintを行う
 

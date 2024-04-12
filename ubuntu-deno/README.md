@@ -1,16 +1,14 @@
-# Ubuntu Node Mise
+# Ubuntu Deno
 
-[mise](https://mise.jdx.dev) を使って Node.js をインストール
+[Deno](https://deno.com) を公式の方法でインストール
 
-Node Features のようにデフォルトで yarn, pnpm はインストールはしていない
-
-mise や node のコマンドは setup.sh に記述を追加可能
+deno のコマンドは setup.sh に記述を追加可能
 
 ESLint ではなく [Biome](https://biomejs.dev) でフォーマットとLintを行う
 
 ## Environment
 
-2024/04/11 現在
+2024/04/12 現在
 
 | OS | Version |
 |----|---------|
@@ -18,14 +16,14 @@ ESLint ではなく [Biome](https://biomejs.dev) でフォーマットとLintを
 
 | Tool | Version |
 |--------|------|
-| Node.js | LTS or latest or etc. |
-setup.sh 内でバージョン指定
+| deno | latest |
 
 | Docker | SIZE |
 |--------|------|
-| Image Size | 724MB |
+| Image Size | 822MB |
 
 ## Extensions
 
+- [Deno](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno)
 - [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biome)
