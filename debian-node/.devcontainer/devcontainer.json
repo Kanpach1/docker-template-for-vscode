@@ -1,0 +1,32 @@
+{
+    "name": "debian-node",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "init": true,
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts",
+            "nodeGypDependencies": "false",
+            "nvmVersion": "latest"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.formatOnSave": true,
+                "[javascript]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode"
+                },
+                "[typescript]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode"
+                }
+            },
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    }
+}
