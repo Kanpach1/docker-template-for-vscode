@@ -1,0 +1,21 @@
+{
+    "name": "ubuntu-base",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "init": true,
+    "features": {
+        // https://containers.dev/features
+        // ↑ ここでFeatures を探す
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                // コンテナ内のVSCode設定
+            },
+            "extensions": [
+                // コンテナ内のVSCode拡張機能
+            ]
+        }
+    }
+}
