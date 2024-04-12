@@ -18,6 +18,6 @@ Microsoft Dev Container 公式の Go イメージにパッケージ追加のオ�
 |--------|------|
 | Image Size | 1.51GB | 
 
-## Extension
+## Extensions
 
 - [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)

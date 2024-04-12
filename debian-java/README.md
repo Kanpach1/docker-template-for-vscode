@@ -20,7 +20,8 @@ Dev Container Features で SDKMAN! を使った環境構築
 |--------|------|
 | Image Size | 1.5GB | 
 
-## Extension
+## Extensions
 
 - [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 - [Gradle for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-gradle)
+- [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)

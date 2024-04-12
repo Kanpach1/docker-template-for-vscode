@@ -18,7 +18,7 @@ Microsoft Dev Container 公式の Docker Image にVSCodeの設定だけ加えた
 |--------|------|
 | Image Size | 2.48GB | 
 
-## Extension
+## Extensions
 
 - [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
 - [crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates)

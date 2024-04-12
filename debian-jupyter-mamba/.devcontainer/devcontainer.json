@@ -23,7 +23,8 @@
                 "charliermarsh.ruff",
                 "KevinRose.vsc-python-indent",
                 "njpwerner.autodocstring",
-                "ms-toolsai.jupyter"
+                "ms-toolsai.jupyter",
+                "VisualStudioExptTeam.vscodeintellicode"
             ]
         }
     },

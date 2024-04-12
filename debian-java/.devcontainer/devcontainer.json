@@ -34,6 +34,7 @@
             },
             "extensions": [
                 "vscjava.vscode-java-pack",
+                "VisualStudioExptTeam.vscodeintellicode",
                 "vscjava.vscode-gradle"
             ]
         }

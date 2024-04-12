@@ -20,7 +20,7 @@ Microsoft公式と違い、Zshなどは入っていない
 |--------|------|
 | Image Size | 1.96GB | 
 
-## Extension
+## Extensions
 
 - [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
 - [crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates)

@@ -1,6 +1,6 @@
 # Ubuntu Rust features
 
-Dev Container Features を使った環境構築
+Dev Container Features を使った Rust の環境構築
 
 なぜかDockerイメージの容量が大きい
 
@@ -20,7 +20,7 @@ Dev Container Features を使った環境構築
 |--------|------|
 | Image Size | 2.87GB | 
 
-## Extension
+## Extensions
 
 - [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
 - [crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates)

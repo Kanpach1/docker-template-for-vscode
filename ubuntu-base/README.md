@@ -18,6 +18,6 @@
 |--------|------|
 | Image Size | 693MB | 
 
-## Extension
+## Extensions
 
 - None

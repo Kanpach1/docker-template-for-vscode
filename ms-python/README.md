@@ -20,6 +20,10 @@ Ruff で Format と Lint を行う
 |--------|------|
 | Image Size | 1.49GB | 
 
-## Extension
+## Extensions
 
-- [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Python Indent](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent)
+- [autoDocstring - Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
+- [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
+- [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)

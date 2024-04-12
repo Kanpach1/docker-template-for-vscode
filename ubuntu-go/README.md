@@ -22,6 +22,6 @@ Microsoft 公式の Docker Image より 0.5GB 程軽量
 |--------|------|
 | Image Size | 1.06GB | 
 
-## Extension
+## Extensions
 
 - [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
