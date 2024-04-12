@@ -1,6 +1,6 @@
-# Go - DevContiner公式イメージ
-# * GitHub | devcontainer/go : https://github.com/devcontainers/images/tree/main/src/go
-FROM mcr.microsoft.com/devcontainers/go:latest
+# Python - DevContiner公式イメージ
+# * GitHub | devcontainer/pyhton : https://github.com/devcontainers/images/tree/main/src/python
+FROM mcr.microsoft.com/devcontainers/python:latest
 
 # [オプション] 追加パッケージのインストール
 #

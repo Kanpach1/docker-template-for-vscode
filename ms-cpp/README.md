@@ -1,6 +1,6 @@
 # Microsoft CPP
 
-Microsoft Dev Container 公式の Docker Image にVSCodeの設定だけ加えた環境 
+Microsoft Dev Container 公式の CPP イメージにVSCodeの設定だけ加えた環境 
 
 ## Environment
 

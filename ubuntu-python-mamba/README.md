@@ -2,7 +2,7 @@
 
 Ubuntu に Mambaforge を Dev Container Features でインストール
 
-Ruff でフォーマット(Format)とリント(Lint)を行う
+Ruff で Format と Lint を行う
 
 ## Environment
 

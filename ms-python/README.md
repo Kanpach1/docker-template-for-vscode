@@ -1,6 +1,8 @@
-# Microsoft Go
+# Microsoft Python
 
-Microsoft Dev Container 公式の Go イメージにパッケージ追加のオプションを加えた環境 
+Microsoft Dev Container 公式の Python イメージにパッケージ追加のオプションを加えた環境
+
+Ruff で Format と Lint を行う
 
 ## Environment
 
@@ -12,11 +14,11 @@ Microsoft Dev Container 公式の Go イメージにパッケージ追加のオ�
 
 | Language / runtime | Version | 
 |--------------------|---------|
-| Go | 1.22.1 | 
+| Python | 3.12.2 | 
 
 | Docker | SIZE |
 |--------|------|
-| Image Size | 1.51GB | 
+| Image Size | 1.49GB | 
 
 ## Extension
 
