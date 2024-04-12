@@ -1,29 +1,26 @@
 {
-    "name": "python-mamba",
-    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "name": "ubuntu-python-mamba",
+    "build": {
+        "dockerfile": "./Dockerfile",
+        "context": "."
+    },
     "init": true,
     "customizations": {
         "vscode": {
             "settings": {
-                "python.formatting.provider": "none",
-                "python.linting.pylintEnabled": false,
-                "python.linting.lintOnSave": true,
                 "python.defaultInterpreterPath": "/opt/conda/bin/python",
+                "python.condaPath": "/opt/conda/bin/mamba",
                 "[python]": {
-                    "editor.formatOnPaste": true,
-                    "editor.defaultFormatter": "ms-python.black-formatter",
                     "editor.formatOnSave": true,
                     "editor.codeActionsOnSave": {
-                        "source.fixAll": true
-                    }
-                },
-                "ruff.args": [
-                    "--select=E,W,F,B,I,N,A,UP,C4,PL,PD,NPY,C90,COM"
-                ]
+                        "source.fixAll": "explicit",
+                        "source.organizeImports": "explicit"
+                    },
+                    "editor.defaultFormatter": "charliermarsh.ruff"
+                }
             },
             "extensions": [
                 "ms-python.python",
-                "ms-python.black-formatter",
                 "charliermarsh.ruff",
                 "KevinRose.vsc-python-indent",
                 "njpwerner.autodocstring"
@@ -31,12 +28,7 @@
         }
     },
     "features": {
-        // Git
-        "ghcr.io/devcontainers/features/git:latest": {
-            "version": "latest",
-            "ppa": true
-        },
-        // Mambaforge
+        // https://github.com/rocker-org/devcontainer-features/tree/main/src/miniforge
         "ghcr.io/rocker-org/devcontainer-features/miniforge:latest": {
             "version": "latest",
             "variant": "Mambaforge"
